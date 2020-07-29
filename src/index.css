@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif !important; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (max-width: 768px) {
+  .w-50{
+      width: 50% !important;
+  }
+
+  .w-33{
+      width: 33% !important;
+  }
+  .information{
+    min-height: 90vh;
+    align-items: center;
+    display: flex;
+    background-image: url(../src/assets/img/work-2a.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+.information{
+  min-height: 60vh;
+  align-items: center;
+  display: flex;
+  background-image: url(../src/assets/img/work-10a.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.subscribe{
+  min-height: 40vh;
+  align-items: center;
+  display: flex;
+  background-image: url(../src/assets/img/work-9b.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.active{
+  color: red !important;
+  font-weight: bold !important;
+}
+
+.coach:hover{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.item-menu{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hr-line{
+  width: 100px;
+  height: 2px;
+}
+
+.btn-service{
+  top: -42px;
+  z-index: 1000;
+}
+
+a.workshop{
+  transition: 10s;
+}
+
+a .workshop:hover{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  /* transform: rotate(3deg); */
+  bottom: 0.12rem;
+}
+
+
+/* .nav-item > .active {
+  border-bottom: 1px solid #333;
+} */
